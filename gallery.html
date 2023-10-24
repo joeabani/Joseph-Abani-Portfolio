@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery Page</title>
+    <style>
+        /* Style the gallery container */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        /* Style the gallery items */
+        .gallery-item {
+            display: flex;
+            flex-direction: column;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the images within the gallery */
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Style image captions */
+        .caption {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/New Billboard Concept 1 (New).jpg" alt="Image 1">
+            <p class="caption">Billboard Design</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/New Billboard Concept 1.jpg" alt="Image 2">
+            <p class="caption">Billboard Design</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/TGTS - Breast Cancer Awareness 2.png" alt="Image 3">
+            <p class="caption">Breast Cancer Awareness</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Africa Day.jpg" alt="Image 3">
+            <p class="caption">Africa Day</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/20th April Post.png" alt="Image 3">
+            <p class="caption">Product Flyer</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/30th May Post.jpg" alt="Image 3">
+            <p class="caption">Product Flyer</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Boxing Day.jpg" alt="Image 3">
+            <p class="caption">Boxing Day</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Christmas Card 3.jpg" alt="Image 3">
+            <p class="caption">Christmas</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Document Management.jpg" alt="Image 3">
+            <p class="caption">Product Flyer</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/March 20th Post.jpg" alt="Image 3">
+            <p class="caption">Product Flyer</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/Mothers Day.jpg" alt="Image 3">
+            <p class="caption">Mothers Day</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/TGTS.jpg" alt="Image 3">
+            <p class="caption">Product Flyer</p>
+        </div>
+        <!-- Add more gallery items with images and captions as needed -->
+    </div>
+</body>
+</html>
